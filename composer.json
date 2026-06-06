@@ -27,18 +27,18 @@
     },
     "autoload": {
         "psr-4": {
-            "FelixMuhoro\MpesaWebhooks\\": "src/"
+            "FelixMuhoro\\\\MpesaWebhooks\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FelixMuhoro\MpesaWebhooks\Tests\\": "tests/"
+            "FelixMuhoro\\\\MpesaWebhooks\\\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "FelixMuhoro\MpesaWebhooks\MpesaWebhooksServiceProvider"
+                "FelixMuhoro\\\\MpesaWebhooks\\\\MpesaWebhooksServiceProvider"
             ]
         }
     },
